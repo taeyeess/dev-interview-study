@@ -227,7 +227,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 
 ## :coffee: Java [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
 
-## ![javascript svg]<img src="https://github.com/93jpark/dev-interview-study/assets/image/javascript.svg" width="120">  JavaScript [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
+## <img src="https://github.com/93jpark/dev-interview-study/assets/images/javascript.svg" width="120">  JavaScript [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
 
 
 
