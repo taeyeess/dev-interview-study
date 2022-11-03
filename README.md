@@ -16,7 +16,7 @@
 - [Introduction](#introduction)
 - [Part 1. CS](#part-1-cs기초)
     - [개발상식](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamemtals/Development)
-    - [자료구조](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/DataStructure)
+    - [자료구조](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamemtals/DataStructure)
     - [네트워크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Network)
     - [운영체제](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/OS)
     - [데이터베이스](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Database)
