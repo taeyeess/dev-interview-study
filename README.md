@@ -49,7 +49,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 
 <br>
 
-# Part 1.  CS기초
+# Part 1. CS기초
 
 ## :books: 개발상식 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Development)
 
