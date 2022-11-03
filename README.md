@@ -1,37 +1,264 @@
 <div align=center>
-# dev-interview-study
+
+![](/assets/images/logo_transparent.png)
+
 </div>
-
-## 
-
-# Prepare for Developer Technical Interview 
 
 <div align=center>
 
-[![author](https://img.url.com)](https://someling.com)
-
 </div>
 
+---
 
 
 ## :memo: Table of Contents
 
-- [Introduction](#Introduction)
-- [Part 1. CS](#Part-1-전산기초)
+- [Introduction](#introduction)
+- [Part 1. CS](#part-1-전산기초)
     - [개발상식](https://github.com/dev-interview-study/Development)
-    - [자료구조]
-    - [네트워크]
-    - [운영체제]
-    - [데이터베이스]
-    - [디자인패턴]
-    - [알고리즘]
-- [Part 2. Language](#Part-2-언어)
-    - [Java]
-    - [JavaScript]
-- [Part 3. Framework](#Part-3-프레임워크)
-    - [React]
-    - [Spring]
+    - [자료구조](https://github.com/dev-interview-study/DataStructure)
+    - [네트워크](https://github.com/dev-interview-study/Network)
+    - [운영체제](https://github.com/dev-interview-study/OS)
+    - [데이터베이스](https://github.com/dev-interview-study/Database)
+    - [디자인패턴](https://github.com/dev-interview-study/DesignPattern)
+    - [알고리즘](https://github.com/dev-interview-study/Algorithm)
+- [Part 2. Language](#part-2-언어)
+    - [Java](https://github.com/dev-interview-study/Java)
+    - [JavaScript](https://github.com/dev-interview-study/JavaScript)
+- [Part 3. Framework](#part-3-프레임워크)
+    - [React](https://github.com/dev-interview-study/React)
+    - [Spring](https://github.com/dev-interview-study/Spring)
+- [Part 4. Position](#part-4-포지션)
+    - [Frontend](https://github.com/dev-interview-study/Frontent)
+    - [Backend](https://github.com/dev-interview-study/Backend)
 - [Reference](#Study-Reference)
+    - [TBD]
+- [Git 활용](https://github.com/dev-interview-study/Git)
+
 
 # Introduction
+예비 개발자 취업 및 현업자 이직준비에 필요한 기술면접 스터디입니다. 
+Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자료를 공유하여 다른 멤버들과 함께 성장하기를 목표로 합니다. 주제 외 도움될만한 자료 및 레퍼런스를 올리는 것도 환영합니다.
+해당 Repository에서 학습을 하다가 추가로 궁금한 부분은 `Issue`를 통해 질문해주세요:)
+
+---
+
+# Part 1.  CS기초
+
+## :books: 개발상식 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Development)
+
+- 좋은 코드란 무엇인가?
+- 객체 지향 프로그래밍이란 무엇인가?
+- RESTful API
+- Test-Driven-Development
+- 함수형 프로그래밍
+- MVC 패턴
+- Git & GitHub
+
+## :books: 자료구조 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/DataStructure)
+
+- Array vs LinkedList
+- Stack and Queue
+- Tree
+    - Binary Tree
+    - Full Binary Tree
+    - Complete Binary Tree
+    - BST (Binary Search Tree)
+- Binary Heap
+- Red-Black Tree
+    - 정의, 특징
+    - 삽입, 삭제
+- Hash Table
+    - Hash Function
+    - Resolve Collision
+        - Open Addressing
+        - Separate Chaining
+    - Resize
+- Graph
+    - Graph 용어 정리
+    - Graph 구현, 탐색
+    - Minimum Spanning Tree
+- 시/공간 복잡도
+
+## :books: 네트워크 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Network)
+
+- OSI 7계층
+- GET, POST 방식의 차이점
+- TCP 3-way-handshake & 4-way handshake
+- TCP 와 UDP 의 차이점
+- HTTP 와 HTTPS 의 차이점
+    - HTTP 의 문제점들
+- DNS round robin 방식
+- 웹 통신의 큰 흐름
+- 공개키 암호, 대칭키 암호
+- HTTP 동작과정과 HTTP method, 상태코드
+- Stateful vs Stateless 서비스
+- 로드 밸런싱
+- Naver를 치면 일어나는 과정
+
+## :books: 운영체제 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/OS)
+
+
+- 컴퓨터 시스템의 동작 원리 → 태이님
+- 프로세스와 스레드의 차이 → 형욱님
+- 스케줄러의 종류 → 세영님
+    - 장기 스케줄러
+    - 단기 스케줄러
+    - 중기 스케줄러
+- Context Switching → 준우
+- Interrupt → 영혜님
+- System Call → 준우
+- Dead Lock → 준우
+- CPU 스케줄러
+    - FCFS
+    - SJF
+    - SRT
+    - Priority scheduling
+    - RR
+- 동기와 비동기의 차이
+- 멀티스레드
+    - 장점과 단점
+- 프로세스 동기화
+    - Critical Section
+    - 해결책
+- 메모리 관리 전략
+    - 메모리 관리 배경
+    - Paging
+    - Segmentation
+- 가상 메모리
+    - 배경
+    - 가상 메모리가 하는 일
+    - Demand Paging (요구 페이징)
+    - 페이지 교체 알고리즘
+- 캐시의 지역성
+    - Locality
+    - Caching line
+
+## :books: 데이터베이스 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Database)
+
+- 데이터베이스 → 영혜님
+    - 데이터베이스를 사용하는 이유
+    - 데이터베이스 성능
+    - 데이터베이스 기본 용어
+- Index → 태이님
+    - Index 란 무엇인가
+    - Index 의 자료구조
+    - Primary index vs Secondary index
+    - Composite index
+    - Index 의 성능과 고려해야할 사항
+- 정규화에 대해서 → 세영님
+    - 정규화 탄생 배경
+    - 정규화란 무엇인가
+    - 정규화의 종류
+    - 정규화의 장단점
+- Transaction → 형욱님
+    - 트랜잭션(Transaction)이란 무엇인가?
+    - 트랜잭션과 Lock
+    - 트랜잭션의 특성
+    - 트랜잭션의 상태
+    - 트랜잭션을 사용할 때 주의할 점
+    - 트랜잭션 격리수준
+- Statement vs PreparedStatement
+- NoSQL
+    - 정의
+    - CAP 이론
+        - 일관성
+        - 가용성
+        - 네트워크 분할 허용성
+    - 저장방식에 따른 분류
+        - Key-Value Model
+        - Document Model
+        - Column Model
+- Optimizer
+- Replication
+- Partitioning
+- Sharding
+- Object-Relational Mapping (ORM) → 준우
+
+## :books: 디자인패턴 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/DesignPattern)
+
+- 생성 패턴 (5개)
+    - 싱글톤 (Singleton)
+    - 팩토리 메소드 (Factory Method)
+    - 추상 팩토리 (Abstract Factory)
+    - 빌더 (Builder)
+    - 프로토타입 (Prototype)
+
+- 구조 패턴 (7개)
+    - 어댑터 (Adapter)
+    - 브릿지 (Bridge)
+    - 컴포짓 (Composite)
+    - 데코레이터 (Decorator)
+    - 퍼사드 (Facade)
+    - 플라이웨이트 (Flyweight)
+    - 프록시 (Proxy)
+
+- 행동 패턴 (11개)
+    - 책임 연쇄 (Chain-of-Responsibility)
+    - 커맨드 (Command)
+    - 인터프리터 (Interpreter)
+    - 이터레이터 (Iterator)
+    - 중재자 (Mediator)
+    - 메멘토 (Memento)
+    - 옵저버 (Observer)
+    - 상태 (State)
+    - 전략 (Strategy)
+    - 템플릿 메소드 (Template Method)
+
+## :: 알고리즘 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Algorithm)
+
+- 선택 정렬
+- 거품 정렬
+- 병합 정렬
+- 삽입 정렬
+- 퀵 정렬
+- 힙 정렬
+- 투포인터 알고리즘
+- 순열(Permutation)
+- BFS & DFS
+- 이분탐색
+- 최대공약수와 최소공배수
+- LRU Cache
+- Greedy Algorithm
+- Dijkstra Algorithm
+
+# Part 2. Language [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language)
+
+
+## :coffee: Java [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
+
+## ![javascript svg]<img src="https://github.com/93jpark/dev-interview-study/assets/image/javascript.svg" width="120">  JavaScript [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
+
+
+
+# Part 3. Framework
+
+## :books: 스프링 [링크](https://github.com/93jpark/dev-interview-study/Framework/Spring)
+
+- 스프링 프레임워크란
+- Spring, Spring MVC, Spring Boot의 차이
+- Bean이란
+- Container란
+- IOC(Inversion of Control, 제어의 역전)란
+- MVC 패턴이란
+- DI(Dependency Injection, 의존성 주ㅋ입)란
+- AOP(Aspect Oriented Programming)란
+- POJO
+- DAO와 DTO의 차이
+- Spring JDBC를 이용한 데이터 접근
+- Filter와 Interceptor 차이
+
+
+# Part 4. Position
+
+#### :warning: *TBD*
+
+
+# Reference
+
+#### :warning: *TBD*
+
+# Git 활용
+
+#### :warning: *TBD*
 
