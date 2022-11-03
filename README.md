@@ -14,7 +14,7 @@
 ## :memo: Table of Contents
 
 - [Introduction](#introduction)
-- [Part 1. CS](#part-1-CS기초)
+- [Part 1. CS](#part-1-cs기초)
     - [개발상식](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Development)
     - [자료구조](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/DataStructure)
     - [네트워크](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Network)
@@ -22,16 +22,16 @@
     - [데이터베이스](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Database)
     - [디자인패턴](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/DesignPattern)
     - [알고리즘](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Algorithm)
-- [Part 2. Language](#part-2-언어)
+- [Part 2. Language](#part-2-language)
     - [Java](https://github.com/dev-interview-study/tree/main/Language/Java)
     - [JavaScript](https://github.com/dev-interview-study/tree/main/Language/JavaScript)
-- [Part 3. Framework](#part-3-프레임워크)
+- [Part 3. Framework](#part-3-framework)
     - [React](https://github.com/dev-interview-study/tree/main/Framework/React)
     - [Spring](https://github.com/dev-interview-study/tree/main/Framework/Spring)
-- [Part 4. Position](#part-4-포지션)
+- [Part 4. Position](#part-4-position)
     - [Frontend](https://github.com/dev-interview-study/tree/main/Position/Frontent)
     - [Backend](https://github.com/dev-interview-study/tree/main/Position/Backend)
-- [Reference](#Study-Reference)
+- [Reference](#reference)
     - [TBD]
 - [Git 활용](#Git-활용)
     - [TBD]
