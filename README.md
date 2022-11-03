@@ -1,6 +1,6 @@
 <div align=center>
 
-![](/assets/images/logo_transparent.png)
+![](/assets/images/pinterest_profile_image.png)
 
 </div>
 
