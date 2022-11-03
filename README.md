@@ -1,4 +1,4 @@
-# dev-technical-interview-study
+# dev-interview-study
 
 
 ## 
