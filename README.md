@@ -14,26 +14,26 @@
 ## :memo: Table of Contents
 
 - [Introduction](#introduction)
-- [Part 1. CS](#part-1-전산기초)
-    - [개발상식](https://github.com/dev-interview-study/CS_Fundamentals/Development)
-    - [자료구조](https://github.com/dev-interview-study/CS_Fundamentals/DataStructure)
-    - [네트워크](https://github.com/dev-interview-study/CS_Fundamentals/Network)
-    - [운영체제](https://github.com/dev-interview-study/CS_Fundamentals/OS)
-    - [데이터베이스](https://github.com/dev-interview-study/CS_Fundamentals/Database)
-    - [디자인패턴](https://github.com/dev-interview-study/CS_Fundamentals/DesignPattern)
-    - [알고리즘](https://github.com/dev-interview-study/CS_Fundamentals/Algorithm)
+- [Part 1. CS](#part-1-CS기초)
+    - [개발상식](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Development)
+    - [자료구조](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/DataStructure)
+    - [네트워크](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Network)
+    - [운영체제](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/OS)
+    - [데이터베이스](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Database)
+    - [디자인패턴](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/DesignPattern)
+    - [알고리즘](https://github.com/dev-interview-study/tree/main/CS_Fundamentals/Algorithm)
 - [Part 2. Language](#part-2-언어)
-    - [Java](https://github.com/dev-interview-study/Language/Java)
-    - [JavaScript](https://github.com/dev-interview-study/Language/JavaScript)
+    - [Java](https://github.com/dev-interview-study/tree/main/Language/Java)
+    - [JavaScript](https://github.com/dev-interview-study/tree/main/Language/JavaScript)
 - [Part 3. Framework](#part-3-프레임워크)
-    - [React](https://github.com/dev-interview-study/Framework/React)
-    - [Spring](https://github.com/dev-interview-study/Framework/Spring)
+    - [React](https://github.com/dev-interview-study/tree/main/Framework/React)
+    - [Spring](https://github.com/dev-interview-study/tree/main/Framework/Spring)
 - [Part 4. Position](#part-4-포지션)
-    - [Frontend](https://github.com/dev-interview-study/Position/Frontent)
-    - [Backend](https://github.com/dev-interview-study/Position/Backend)
+    - [Frontend](https://github.com/dev-interview-study/tree/main/Position/Frontent)
+    - [Backend](https://github.com/dev-interview-study/tree/main/Position/Backend)
 - [Reference](#Study-Reference)
     - [TBD]
-- [Git 활용](https://github.com/dev-interview-study/Git)
+- [Git 활용](#Git-활용)
     - [TBD]
 
 
@@ -46,7 +46,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 
 # Part 1.  CS기초
 
-## :books: 개발상식 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Development)
+## :books: 개발상식 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Development)
 
 - 좋은 코드란 무엇인가?
 - 객체 지향 프로그래밍이란 무엇인가?
@@ -56,7 +56,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 - MVC 패턴
 - Git & GitHub
 
-## 🧬 자료구조 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/DataStructure)
+## 🧬 자료구조 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/DataStructure)
 
 - Array vs LinkedList
 - Stack and Queue
@@ -81,7 +81,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
     - Minimum Spanning Tree
 - 시/공간 복잡도
 
-## 🌍 네트워크 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Network)
+## 🌍 네트워크 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Network)
 
 - OSI 7계층
 - GET, POST 방식의 차이점
@@ -97,7 +97,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 - 로드 밸런싱
 - Naver를 치면 일어나는 과정
 
-## :computer: 운영체제 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/OS)
+## :computer: 운영체제 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/OS)
 
 
 - 컴퓨터 시스템의 동작 원리
@@ -135,7 +135,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
     - Locality
     - Caching line
 
-## 🗂 데이터베이스 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Database)
+## 🗂 데이터베이스 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Database)
 
 - 데이터베이스
     - 데이터베이스를 사용하는 이유
@@ -176,7 +176,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 - Sharding
 - Object-Relational Mapping (ORM)
 
-## 📤 디자인패턴 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/DesignPattern)
+## 📤 디자인패턴 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/DesignPattern)
 
 - 생성 패턴 (5개)
     - 싱글톤 (Singleton)
@@ -206,7 +206,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
     - 전략 (Strategy)
     - 템플릿 메소드 (Template Method)
 
-## 🧩 알고리즘 [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Algorithm)
+## 🧩 알고리즘 [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Algorithm)
 
 - 선택 정렬
 - 거품 정렬
@@ -225,12 +225,12 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 
 # Part 2. Language
 
-## Java [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
+## Java [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Language/Java)
 
 
 #### :warning: *TBD*
 
-## JavaScript [링크](https://github.com/93jpark/dev-interview-study/CS_Fundamentals/Language/Java)
+## JavaScript [링크](https://github.com/93jpark/dev-interview-study/tree/main/CS_Fundamentals/Language/Java)
 
 
 #### :warning: *TBD*
@@ -238,7 +238,7 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 
 # Part 3. Framework
 
-## 🌼 Spring [링크](https://github.com/93jpark/dev-interview-study/Framework/Spring)
+## 🌼 Spring [링크](https://github.com/93jpark/dev-interview-study/tree/main/Framework/Spring)
 
 - 스프링 프레임워크란
 - Spring, Spring MVC, Spring Boot의 차이
@@ -253,17 +253,17 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 - Spring JDBC를 이용한 데이터 접근
 - Filter와 Interceptor 차이
 
-## ☢️ React [링크](https://github.com/93jpark/dev-interview-study/Framework/React)
+## ☢️ React [링크](https://github.com/93jpark/dev-interview-study/tree/main/Framework/React)
 
 #### :warning: *TBD*
 
 
 # Part 4. Position
 
-## Front-end [링크](https://github.com/93jpark/dev-interview-study/Position/Frontend)
+## Front-end [링크](https://github.com/93jpark/dev-interview-study/tree/main/Position/Frontend)
 #### :warning: *TBD*
 
-## Back-end [링크](https://github.com/93jpark/dev-interview-study/Position/Backend)
+## Back-end [링크](https://github.com/93jpark/dev-interview-study/tree/main/Position/Backend)
 #### :warning: *TBD*
 
 
