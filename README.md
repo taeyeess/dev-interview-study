@@ -273,5 +273,5 @@ Contributor들이 각자 주제에 대한 공부를 진행하고, 정리한 자�
 
 # Git 활용
 
-#### :warning: *TBD*
+- Git 가이드 for 스터디 참여 [링크](https://github.com/93jpark/dev-interview-study/Git)
 
