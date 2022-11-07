@@ -14,6 +14,8 @@ HTTP는 확장가능한 프로토콜이다. 이 확장가능성(extensibility)�
 
 ### 웹 동작과정
 
+<img src="https://github.com/93jpark/dev-interview-study/assets/image/network/network_http_workflow.jpeg" width="600" height="400">
+
 ##### 1. URL 검색
 유저가 웹 브라우저의 검색창에 URL주소를 입력한다.
 
@@ -205,6 +207,8 @@ Connection: Closed
 
 
 ### HTTP Method
+
+웹 브라우저에서 URL을 입력하면 해당 URL에 위치한 서버와 통신을 하게 된다. 브라우저는 서버로부터 웹문서를 받아서 렌더링하여 사용자에게 보여준다. 이 때, GET/POST와 같은 메소드를 통해 데이터를 수신하거나 입력한다. 
 
 `HTTP Method`는 ..
 
