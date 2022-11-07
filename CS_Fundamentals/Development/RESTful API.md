@@ -69,7 +69,7 @@ API가 필요한 URL을 만들 때 삽입, 수정, 삭제 명령어를 다음과
 > Http Method: GET,POST,PUT,DELETE
 
 적용하면 다음과 같다  
-
+ 
 1) 복수형 명사와 결합
 - 데이터 삽입  
 
