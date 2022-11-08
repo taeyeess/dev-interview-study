@@ -1,5 +1,5 @@
 ### TCP와 UDP
-네트워크의 전송 계층에서 사용하는 프로토콜
+네트워크의 전송계층에서 사용하는 프로토콜
 - 데이터 전달을 위하여 사용하는 프로토콜
 
 ### 전송 계층(Transport Layer)
@@ -28,7 +28,6 @@
 
 #### 특징
 - 비연결 지향 프로토콜
-
 - 신뢰성 없는 데이터 전송(도착 결과 확인 과정이 없어 데이터 전송 중 손실 가능성이 있음)
 - 패킷관리가 필요
 - 시간 동기가 필요한 **실시간 스트리밍 서비스** 등에서 사용
@@ -39,13 +38,12 @@
 
 
 ### 공통점과 차이점
-공
-포트 번호를 이용하여 주소를 지정
-- 데이터 오류검사를 위한 체크섬 존재
+#### 공통점
+- 포트 번호를 이용하여 주소를 지정
+- 데이터 오류 검사를 위한 체크섬 존재
  
-차  
-흐름제어
-혼잡제어
+#### 차이점
+![image](https://user-images.githubusercontent.com/43839951/200473184-e62b54b4-d6ab-44a4-a7a2-c4a10edac86a.png)
 
 >**흐름제어와 혼잡제어**<br>
 > 
@@ -53,13 +51,13 @@
 >
 > **혼잡제어**: 네트워크 내의 **패킷 수**가 넘치게 증가하지 않도록 방지하는 것
 
-
-표로 정리하는게 보기 편하다
-
+Todo: 동영상 강의 내용 정리
 ### 면접 대비 질문
 1. Window size의 역할?
 2. TCP가 UDP에 비해 느린 이유?
-
-자료 출처 및 참고<br>
-[[CS전공지식면접] TCP / IP 4계층과 OSI 7계층 모델|작성자 큰돌](https://blog.naver.com/jhc9639/222713398150)  
-[[Network] TCP / UDP의 개념과 특징, 차이점](https://coding-factory.tistory.com/614)
+<br><br>
+---
+#### 자료 출처 및 참고<br>
+[[CS전공지식면접] TCP / IP 4계층과 OSI 7계층 모델|작성자 큰돌](https://blog.naver.com/jhc9639/222713398150)<br><br>
+[[Network] TCP / UDP의 개념과 특징, 차이점](https://coding-factory.tistory.com/614)<br><br>
+[이해하면 인생이 바뀌는 TCP 송/수신 원리](https://www.youtube.com/watch?v=K9L9YZhEjC0&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy&index=25)
