@@ -240,7 +240,7 @@ Content-Length: 3423
 
 
 >Reference 
-> - https://kyun2da.dev/CS/http-메소드와-상태코드/
+> https://kyun2da.dev/CS/http-메소드와-상태코드/
 
 
 
