@@ -11,15 +11,14 @@ API란 프로그램들이 서로 소통하는 방법이다.<br>즉, 코드들이
 - **REST API**
   - Representational State Transfer 의 약자
   - 서버의 자원을 어떠한 방식으로 접근하도록 해야 구체적으로 명시한 것
-  - 웹에 존재하는 모든 자원(이미지, 동영상, DB 자원)에 고유한 URI를 부여해 활용하는 것
   - 자원을 정의(HTTP URI)하고 자원에 대한 주소를 지정(HTTP Method)하는 방법론
+  - URI는 자원을 표현하는 데에 집중하며, 행위에 대한 정의는 HTTP Method를 통해 하는 것
   - HTTP 프로토콜을 그대로 사용하여 웹/모바일 개발에서 서버/클라이언트가 통신하기에 적합  <br><br>
 
 - **REST의 구성 요소**
-  - 자원(Resource) : URI를 이용하여 표현
-  - 행위(Verb): HTTP 메서드를 이용하여 표현
-  - 표현(Representations)<br><br>
-  
+  - 자원(Resource) : HTTP URI를 이용하여 표현
+  - 행위(Verb): HTTP HTTP Method를 이용하여 표현
+  - 표현(Representations): 자원에 대한 행위의 내용<br><br>
 
 - **RESTFUL이란?**
   - REST의 형식을 따르는 시스템을 의미한다.<br><br>
