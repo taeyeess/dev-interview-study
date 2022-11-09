@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+test
+=======
 # 자료구조
 
 ## Hash 
@@ -29,3 +32,4 @@
 
 ### Resize
 
+>>>>>>> upstream/main
