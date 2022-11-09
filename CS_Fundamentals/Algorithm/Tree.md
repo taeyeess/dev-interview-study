@@ -1,5 +1,6 @@
 # 트리(Tree)
 
+<br><br>
 ## 트리(Tree)의 개념
 = 무방향이면서 사이클이 없는 연결 그래프(Undirected Acyclic Connected Graph)이다. <br>
 = 연결 그래프이면서 임의의 간선을 제거하면 연결 그래프가 아니게 되는 그래프<br>
@@ -9,6 +10,8 @@
 = **V개의 정점을 가지고 V-1개의 간선을 가지는 Acyclic(=사이클이 없는) 그래프**
 
 * 주의: 정점이 1개이면서 간선이 없는 그래프도 트리이다.
+
+<br><br>
 
 ## 트리(Tree)와 관련된 용어
 ![image](https://user-images.githubusercontent.com/43839951/200528702-f7e71b97-bc97-42b2-9961-93461f8e2913.png)
@@ -24,6 +27,7 @@
 - 트리의 차수(degree of tree): 트리의 최대 차수<br>
 - 트리의 높이(height): 루트 노드에서 가장 깊숙히 있는 노드의 깊이<br>
 
+<br><br>
 ## 트리(Tree)의 특징
 - **그래프**의 한 종류이다
 - **계층 모델**이다
@@ -31,6 +35,7 @@
 - 노드가 N개인 트리는 **N-1개의 간선**을 가진다
 - 루트에서 특정 노드로 가는 **경로는 유일**하다(두 개의 정점 사이에 반드시 1개의 경로만을 가진다)
 
+<br><br>
 ## 트리(Tree)의 종류
 
 ### 트리 VS 이진 트리
@@ -86,17 +91,14 @@ def preorder(v):
 위의 세가지 예시에서 알 수 있 듯 결국 재귀 함수를 호출하여 트리의 `서브 트리`를
 순회하는 과정에서 루트 노드를 언제 방문했는지의 차이만 있을 뿐임을 알 수 있다.<br><br>
 
-
-## 이진 트리 vs 이진 탐색 트리
-미완
-### Full Binary Tree
+<br><br>
+## Full Binary Tree
 - 모든 레벨이 꽉 차 있는 트리
 - 노드를 더 추가하려면 **레벨을 늘려야 한다**.<br><br>
 <img src="https://user-images.githubusercontent.com/43839951/200601711-960bee3e-a107-4acf-906c-3cebf16195de.png" width="200" height="200"/>
 <br><br>
 
-
-### Complete Binary Tree
+## Complete Binary Tree
 - `Full Binary Tree`에서 레벨을 하나 더 늘려서 H,I를 추가한다고 가정하자
 - 모든 레벨이 꽉 찬 상태는 아니지만, **빈틈없이 노드가 채워진** 이진 트리를 의미한다.
 
@@ -105,6 +107,8 @@ def preorder(v):
 
 <img src="https://user-images.githubusercontent.com/43839951/200601931-31269a28-9517-46bf-a355-83cb58ac3264.png" width="200" height="200"/>
 
+
+<br><br>
 ---
 ### 자료 출처 및 참고<br>
 [[자료구조] 트리(Tree)란](https://gmlwjd9405.github.io/2018/08/12/data-structure-tree.html)
