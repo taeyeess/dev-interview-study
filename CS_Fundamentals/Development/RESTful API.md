@@ -1,15 +1,15 @@
 # RESTful API
 
----
 
-### API
+
+## API
 API란 프로그램들이 서로 소통하는 방법이다.<br>즉, 코드들이 서로 소통하기 위하여 만들어진 것이 API이다.
 
 **API의 종류**
   - WEB API : 브라우저
   - 공공 API : 공공 데이터
 <br><br>
-### REST API와 RESTFUL<br><br>
+## REST API와 RESTFUL<br><br>
 - **REST API**
   - Representational State Transfer 의 약자
   - 서버의 자원을 어떠한 방식으로 접근하도록 해야 구체적으로 명시한 것
@@ -25,9 +25,9 @@ API란 프로그램들이 서로 소통하는 방법이다.<br>즉, 코드들이
   
 
 - **RESTFUL이란?**
-  - REST의 형식을 따르는 시스템을 의미한다.
+  - REST의 형식을 따르는 시스템을 의미한다.<br><br>
 
-### REST API 설계하기
+## REST API 설계하기
 사용하기 쉬운 API란 팀 멤버들과 유저가 쉽게 활용할 수 있도록 설계된 API를 의미한다.
 
 좋은 API를 설계하는 방법에 대해 알아보자
@@ -88,9 +88,7 @@ API가 필요한 URL을 만들 때 삽입, 수정, 삭제 명령어를 다음과
 - 데이터 삭제
   - DELETE/Books/HarryPotter
 
-응용하면 위의 형식을 계속 확장해 나갈 수 있다.  
-
-만약, 책의 등장 인물을 알고 싶다면 **GET/Books/HarryPotter/character** 의 형식으로 요청 가능하다.
+응용하면 위의 형식을 계속 확장해 나갈 수 있다. 만약, 책의 등장 인물을 알고 싶다면 **GET/Books/HarryPotter/character** 의 형식으로 요청 가능하다.
 <br><br>
 ---
 #### 자료 출처 및 참고<br>
