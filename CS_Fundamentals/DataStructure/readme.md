@@ -1,3 +1,4 @@
+
 # 자료구조
 
 
@@ -67,6 +68,40 @@
 Linked List는 Tree 구조의 근간이 되는 자료구조이며,
 Tree에서 사용되었을 때 그 유용성이 드러난다.
 
+## Stack
+- 선형 자료구조. 
+- '쌓다'라는 의미
+**`Last In First Out(LIFO)` _나중에 들어간 원소가 먼저 나온다._**
+아래에서 위로 데이터를 차곡차곡 쌓아 올린 형태의 자료구조. 제일 먼저 `stack`에 들어가게 된 원소는 맨 바닥에 깔리게 된다. 
+쌓아둔 책을 떠올리면 이해하기가 쉽다. 
+제일 밑에 깔린 책 (처음에 들어간 데이터)을 먼저 꺼내기 힘든 것 처럼 가장 마지막에 쌓아 올린 책 (마지막에 삽입된 자료)이 가장 먼저 삭제되는 구조를 가지고 있다. 
+정해진 방향으로만 쌓을 수 있으며, top으로 정한 곳을 통해서만 접근 할 수 있다. 
+stack에서는 **삽입 연산**을 `push`, 삭제 연산을 `pop`이라고 하며 이러한 스택의 구조를 **후입선출의 구조**라고 한다. 
+<br>
+### Stack의 사용사례
+> - 웹 브라우저 방문기록 (뒤로 가기)
+> - 실행 취소 (undo)
+> - 역순 문자열 만들기
+> - 후의 표기법 계산
+
+<br>
+## Queue
+- 선형 자료구조.
+- Stack과 달리 먼저 들어온 것이 먼저 나가는 선입선출의 구조. 
+**`First In Last Out(FILO)` _먼저 들어간 원소가 나중에 나온다._**
+사람들이 줄 서 있는 곳을 떠올리면, 제일 먼저 카페에 들어온 사람이 제일 먼저 음료를 받고 나가는 것처럼 먼저 삽입 된 자료가 가장 먼저 삭제 되는 구조를 가지고 있다. 
+삭제 연산이 수행되는 곳을 프론트(front), 삽입 연산이 이루어지는 곳을 리어(rear)라고 하며, 리어(rear)에서 이루어지는 삽입 연산을 인큐(Enqueue)라고 부르고 프론트(front)에서 이루어지는 삭제 연산을 디큐(dequeue)라고 부른다. 
+
+###Que의 사용사례
+>- 은행 업무
+>- 대기열 순서와 같은 우선순위의 작업 예약 등 (프린터의 인쇄 대기열)
+>- 서비스 센터의 대기 시간
+>- 프로세스 관리
+>- 게임 대전 매칭 시스템
+
+
+---
+
 ## Hash
 
 `Hash`는 키(key)와 값(value)의 쌍으로 저장되는 자료구조를 말한다. 배열에는 여러 키(key)들이 저장되며, 해쉬 함수를 통해 해당되는 값을 가져온다. 키(key)는 중복이 되지 않는 유니크한 값이어야 하며, 값(value)는 중복이 가능하다.
@@ -126,8 +161,6 @@ hash table의 주소에 이미 데이터가 저장되어 collision이 일어났�
 reference: [https://www.youtube.com/watch?v=KyUTuwz_b7Q](https://www.youtube.com/watch?v=KyUTuwz_b7Q)
 
 #### Separate Chaining
-
-<<<<<<< HEAD
 해시 테이블의 저장 공간(bucket)을 LinkedList로 구성하여 해시 충돌을 피하는 기법을 체인 분리법(separate chaining) 또는 폐쇄 주소법(closed addressing)이라고 한다. 이때, LinkedList의 데이터가 저장되는 각 노드를 슬롯(slot)이라고 한다.
 
 - LinkedList라는 부가적인 자료구조를 사용함으로 성능 저하. 충돌이 많아져 리스트가 길어지면 탐색하는데에 O(n)까지 늘어날 수 있음.
@@ -152,5 +185,3 @@ reference: [https://www.youtube.com/watch?v=KyUTuwz_b7Q](https://www.youtube.com
 load factor = total number of items stores / size of array
 
 Hash Table이 동적으로 늘어날 수 있는 자료구조로 만들고, 저장된 데이터와 테이블 사이즈의 비율(Load Factor)에 따라 hash table 크기 자체를 늘릴 수 있다.
-
-
