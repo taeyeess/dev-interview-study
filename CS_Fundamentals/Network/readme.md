@@ -1,3 +1,35 @@
+# Network
+
+
+## :memo: Table of Contents
+
+- [API](#api란)
+    - [API 접근방식](#api의-접근-방식)
+    - [API 장점](#api의-장점)
+- [HTTP](#http)
+    - [프로토콜](#프로토콜protocol)
+    - [TCP & UDP](#tcptransmission-control-protocol-udpuser-datagram-protocol)
+    - [HTTP 프로토콜의 문제점](#http-프로토콜의-문제점)
+- [HTTPs](#https)
+- [TCP & UDP](#tcp와-udp)
+    - [전송계층](#전송-계층transport-layer)
+    - [특징](#특징)
+    - [UDP](#udp)
+- [HTTP 동작과정, HTTP method, 상태코드](#http-동작과정과-http-method-상태코드)
+    - [웹 동작과정](#웹-동작과정)
+    - [HTTP method](#http-method)
+    - [HTTP 상태코드](#http-상태코드)
+- [HTTP와 Method](#http)
+    - [GET](#get)
+    - [POST](#post)
+    - [GET/POST의 차이](#get과-post의-차이)
+
+<br>
+
+---
+
+<br>
+
 ## API란?
 
 > 컴퓨터나 컴퓨터 프로그램 사이의 연결이며, 일종의 소프트웨어 인터페이스이다.
@@ -10,7 +42,7 @@
 
 ---
 
-## API의 접근 방식
+### API의 접근 방식
 
 - Private API :
   - 다른 3자에게 공개하지 않으며 조직 내부 개발자에게 제공합니다.
@@ -25,7 +57,7 @@
 
 ---
 
-## API의 장점
+### API의 장점
 
 - 데이터 접속의 표준화와 편의성
   - API는 모든 접속을 표주화 하기 때문에 누구나 손쉽게 동일한 엑세스를 할수있습니다.
@@ -36,15 +68,11 @@
   - API는 변화, 예측 에도 도움이 됩니다
   - API를 통해 데이터를 수집하고 전달하는 데 있어 유연한 서비스 환경을 구축할수 있습니다
 
-### 참고
-
----
-
+>Reference
 https://www.hanl.tech/blog/api%EB%9E%80-api%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%A2%85%EB%A5%98-%EC%9E%A5%EB%8B%A8%EC%A0%90/
-
 https://ittrue.tistory.com/31
 
----
+
 
 ---
 ## HTTP란? 
@@ -89,6 +117,81 @@ https://ittrue.tistory.com/31
  - 암호화/ 복호화의 과정이 필요하기 때문에 http보다 속도가 느림(오늘날에는 거의 차이를 못느낌)
  - 인증서를 발급하고 유지하기 위한 추가 비용 발생
  
+ ---
+
+## TCP와 UDP
+- 네트워크의 전송계층에서 사용하는 프로토콜
+- 데이터 전달을 위하여 사용하는 프로토콜<br><br>
+
+#### 전송 계층(Transport Layer)
+![image](https://user-images.githubusercontent.com/43839951/200315518-de8f061d-68de-41c5-9559-6ca2c4f5f108.png)
+- OSI 7 계층 중 Layer 4 계층에 해당
+- 송신자와 수신자를 연결하는 통신 서비스 제공
+- 연결 지향 데이터 스트림 지원, 신뢰성, 흐름 제어를 제공<br><br>
+
+#### TCP
+- 전송 제어 프로토콜 (Transmission Control Protocol)의 약자
+ 
+### 특징
+- 연결 지향 프로토콜
+- 가상회선 패킷 교환 방식을 사용
+- 데이터의 전송 순서를 보장 (데이터의 순서 유지를 위해 각 바이트마다 번호를 부여)
+- 신뢰성있는 데이터 전송(ACK 이용) => 데이터를 확실히 주고받을 때 사용
+- 서버와 클라이언트는 1:1 연결된다 => 논리적 경로를 지정한 후 고정 경로로 통신
+- Streaming 서비스에 불리하다(손실된 경우 재전송 요청을 하므로)
+- ex. 웹/메일/파일 공유
+
+> **연결 지향 프로토콜이란?**<br>
+> 클라이언트와 서버가 연결된 상태에서 데이터를 주고받는 프로토콜
+
+
+<br><br>
+
+## UDP
+- 사용자 데이터그램 통신 규약 (User Datagram Protocol: UDP)
+- 안전하게 보호되어야 할 필요가 없는 실시간 응용 프로그램에서 흔히 이용
+
+> 데이터그램: 독립적인 관계를 지니는 패킷
+### 특징
+- 비연결 지향 프로토콜
+- 신뢰성 없는 데이터 전송(도착 결과 확인 과정이 없어 데이터 전송 중 손실 가능성이 있음)
+- 패킷관리가 필요
+- 시간 동기가 필요한 **실시간 스트리밍 서비스** 등에서 사용
+- 서버와 클라이언트는 1대1, 1대N, N대M 등으로 연결될 수 있다
+
+> **비연결 지향 프로토콜이란?**<br>
+> 데이터를 주고받을 때 연결 절차를 거치지 않고 발신자가 일방적으로 데이터를 발신하는 방식
+ 
+<br><br>
+
+### 비교
+#### 공통점
+- 포트 번호를 이용하여 주소를 지정
+- 데이터 오류 검사를 위한 체크섬 존재
+ 
+> 체크섬: 데이터를 송신하는 중에 발생할 수 있는 오류를 검출하기 위한 값
+#### 차이점
+![image](https://user-images.githubusercontent.com/43839951/200473184-e62b54b4-d6ab-44a4-a7a2-c4a10edac86a.png)
+
+>**흐름제어와 혼잡제어**<br>
+> 
+> **흐름제어**: 데이터를 송신하는 곳과 수신하는 곳의 **데이터 처리 속도를 조절**하여 **수신자의 버퍼 오버플로우를 방지**하는 것
+>
+> **혼잡제어**: 네트워크 내의 **패킷 수**가 넘치게 증가하지 않도록 방지하는 것
+
+<br><br>
+
+#### 면접 대비 질문
+1. Window size의 역할?
+2. TCP가 UDP에 비해 느린 이유?
+<br><br>
+
+Reference>
+[[CS전공지식면접] TCP / IP 4계층과 OSI 7계층 모델|작성자 큰돌](https://blog.naver.com/jhc9639/222713398150)<br><br>
+[[Network] TCP / UDP의 개념과 특징, 차이점](https://coding-factory.tistory.com/614)<br><br>
+[이해하면 인생이 바뀌는 TCP 송/수신 원리](https://www.youtube.com/watch?v=K9L9YZhEjC0&list=PLXvgR_grOs1BFH-TuqFsfHqbh-gpMbFoy&index=25)
+
+
  ---
 
 ## HTTP 동작과정과 HTTP method, 상태코드
@@ -349,8 +452,6 @@ Content-Length: 3423
 
 ---
 
-# 네트워크
-
 ![](https://velog.velcdn.com/images/huunguk/post/1f9be31e-42a2-493e-b1cc-03a3c2cb30f4/image.png)
 
 ## HTTP
@@ -366,7 +467,7 @@ Content-Length: 3423
 
 이 HTTP 메소드 중에서 GET과 POST의 특징과 차이점을 알아보겠다.
 
-## GET
+### GET
 
 GET은 **서버로부터 정보를 조회하기 위해** 설계된 메소드이다.
 
@@ -386,7 +487,7 @@ URL의 끝에 `?`와 함께 이름과 값으로 쌍을 이루어 request를 보�
 또 **보안이 필요한 데이터**에 대해서는
 그대로 url에 노출되므로 **`GET` 방식은 적절하지 않다.**
 
-## POST
+### POST
 
 POST는 **리소스를 생성/변경하기 위해 설계**되었다.
 POST방식의 request는 `HTTP Request Message`의 **Body** 부분에
@@ -396,7 +497,7 @@ POST방식의 request는 `HTTP Request Message`의 **Body** 부분에
 데이터의 크기가 GET 방식보다 크고 내용이 눈에 보이지 않아 보안면에서 POST가 낫다.
 _(하지만 보안적인 측면에서는 암호화를 하지 않는이상 고만고만하다.)_
 
-## GET과 POST의 차이
+### GET과 POST의 차이
 
 **GET은** Idempotent / **POST는** Non-idempotent하게 설계되어잇다.
 
