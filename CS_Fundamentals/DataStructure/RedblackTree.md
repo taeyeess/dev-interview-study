@@ -134,7 +134,7 @@ cf) https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 
 ***
 
-###면접 예상 질문
+### 면접 예상 질문
 >이진탐색 트리는 어떤 문제점이 있고, 이를 해결하기 위한 트리 중 한가지를 설명해보세요.
 
 
