@@ -11,7 +11,7 @@
 
 #### 1. 해시 테이블(Hash Table)Permalink
 Key-Value 형태로 데이터를 저장하는 자료구조입니다. 내부적으로 배열(버킷)을 사용하여 데이터를 저장하기 때문에 빠른 검색 속도를 제공합니다. 데이터 탐색 시 해시 함수(Hash Function)를 이용해 Key에 해당하는 index 값을 구합니다. index를 이용하여 배열에 저장된 value에 접근하기 때문에 해시 테이블의 평균 시간복잡도는 O(1)입니다.
-<p align="center"><img width="300" src="https://velog.velcdn.com/images/taeyeeya/post/ca3c4536-5d4d-4926-ab63-785ba977f34e/image.jpg"></p>
+<p align="center"><img width="500" src="https://velog.velcdn.com/images/taeyeeya/post/ca3c4536-5d4d-4926-ab63-785ba977f34e/image.jpg"></p>
 칼럼의 값으로 해시 값을 계산해서 인덱싱하는 알고리즘으로 매우 빠른 검색을 지원한다. 
 하지만 값을 변형해서 인덱싱 하므로 특정 문자로 시작하는 값으로 검색을 하는 전방 일치와 같이 값의 일부만으로 검색하고 할 때는 해시 인덱스를 사용할 수 없다. 
 주로 메모리 기반의 데이터베이스에서 많이 사용한다. 
@@ -41,7 +41,7 @@ Hash테이블 방식은 O(1), B+-Tree방식은 O(logn)의 시간 복잡도를 �
 테이블에 클러스터 인덱스를 적용할 때마다 그 테이블에 정렬 작업이 수반된다. 
 클러스터 인덱스는 Primary Key처럼 한 테이블에 한개만 생성할 수 있다. 
 또한, 클러스터 인덱스는 데이터를 가리키는 포인터가 아닌 데이터를 저장한 블록의 포인터를 저장한다. 
-![](https://velog.velcdn.com/images/taeyeeya/post/98829e92-025b-4fba-9983-b31b4071ad93/image.jpg)
+<p align="center"> <img width="500" src="https://velog.velcdn.com/images/taeyeeya/post/98829e92-025b-4fba-9983-b31b4071ad93/image.jpg"></p>
 
 
 #### 보조 인덱스 (비클러스터형 인덱스 / Nonclustered Index)
