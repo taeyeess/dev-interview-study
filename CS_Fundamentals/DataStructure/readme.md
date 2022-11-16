@@ -101,9 +101,11 @@ Tree에서 사용되었을 때 그 유용성이 드러난다.
 <br>
 
 ## Stack
+
 - 선형 자료구조. 
 - '쌓다'라는 의미
 **`Last In First Out(LIFO)` _나중에 들어간 원소가 먼저 나온다._**
+
 ![](https://velog.velcdn.com/images/taeyeeya/post/f826c938-f983-4601-8437-48ec01b7c168/image.png)
 
 아래에서 위로 데이터를 차곡차곡 쌓아 올린 형태의 자료구조. 제일 먼저 `stack`에 들어가게 된 원소는 맨 바닥에 깔리게 된다. 
@@ -122,9 +124,11 @@ stack에서는 **삽입 연산**을 `push`, 삭제 연산을 `pop`이라고 하�
 <br>
 
 ## Queue
+
 - 선형 자료구조.
 - Stack과 달리 먼저 들어온 것이 먼저 나가는 선입선출의 구조. 
 **`First In Last Out(FILO)` _먼저 들어간 원소가 나중에 나온다._**
+
 ![](https://velog.velcdn.com/images/taeyeeya/post/11075005-fe3d-4317-9152-e3ea3e041ce9/image.png)
 
 사람들이 줄 서 있는 곳을 떠올리면, 제일 먼저 카페에 들어온 사람이 제일 먼저 음료를 받고 나가는 것처럼 먼저 삽입 된 자료가 가장 먼저 삭제 되는 구조를 가지고 있다. 
