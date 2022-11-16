@@ -46,7 +46,7 @@
 ***
 cf) https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
 
-##삽입
+## 삽입
 
 * ##### 새로 삽입되는 노드는 red
 * ##### case1 : 부모 노드가 레드인데, 부모의 형제가 없거나 블랙일 때 - 회전
