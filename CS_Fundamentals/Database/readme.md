@@ -49,8 +49,8 @@ Hash테이블 방식은 O(1), B+-Tree방식은 O(logn)의 시간 복잡도를 �
 - 비클러스터형 인덱스는 그냥 찾아보기가 있는 일반 책과 같다.
 
 비 클러스터 인덱스는 책의 색인(Index)과 같은 역할을 한다. 
-데이터와 인덱스는 각각 다른 장소에 저장되므로 한 테이블에 여러 개의 비 클러스터 인덱스를 생성할 수 있다. 또한, 비 클러스터 인덱스는 데티터를 가리키는 포인터를 저장한다.
-![](https://velog.velcdn.com/images/taeyeeya/post/a22c45fb-ca18-4eea-a762-f7ca79b5dd2d/image.jpg)
+데이터와 인덱스는 각각 다른 장소에 저장되므로 한 테이블에 여러 개의 비 클러스터 인덱스를 생성할 수 있다. 또한, 비 클러스터 인덱스는 데이터를 가리키는 포인터를 저장한다.
+<p align="center"><img width="500" src="https://velog.velcdn.com/images/taeyeeya/post/a22c45fb-ca18-4eea-a762-f7ca79b5dd2d/image.jpg"></p>
 
 ### Cluster Index vs Nonclustered Index
 |기준|Cluster Index|Nonclustered Index|
@@ -79,7 +79,6 @@ Hash테이블 방식은 O(1), B+-Tree방식은 O(logn)의 시간 복잡도를 �
 - Equal('=')로 사옹되는 컬럼 우선
 - 분포도가 좋은 컬럼을 우선
 - 자주 이용되는 순서대로 결합 인덱스 컬럼의 순서 결정
-
 
 
 ## ◻ Index 의 성능과 고려해야할 사항
