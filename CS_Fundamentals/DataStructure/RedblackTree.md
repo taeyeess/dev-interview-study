@@ -1,4 +1,4 @@
-##레드 블랙 트리
+## 레드 블랙 트리
 ***
 
 ![image](https://velog.velcdn.com/images%2Fmain_door%2Fpost%2F84678409-1a8e-4325-b45c-07a57f2cc814%2Fimage.png) 
