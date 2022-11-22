@@ -33,7 +33,7 @@
 - OOP는 객체를 통해 추상화, 캡슐화, 정보은닉, 상속, 다형성 등 다양한 장치를 통해 프로그램을 제어한다.
 - RDB는 데이터 정규화를 통해 데이터의 효율적인 저장을 목표로 한다.
 
-
+<br>
 
 #### 상속
 
@@ -47,8 +47,11 @@ class Employee extends Person {
     String position;
 }
 ```
+<br>
 
 **슈퍼 타입(Person)** 은 공통 부분을 지니는 특성에 대해 정의하며, **서브 타입(Employee)** 는 공통 속성을 상속받아서 다른 엔티티와 차이가 있는 특성을 지닌다. 
+
+<br>
 
 ```SQL
 INSERT INTO person ...
@@ -58,11 +61,18 @@ SELECT p.*, e.*
     FROM person p JOIN employee e
         ON p.id = e.id;
 ```
+<br>
+
 위의 Employee객체를 DB에 저장하고 조회하기 위한 SQL은 위와 같다.
 Java의 ORM기술인 Hibernate를 사용하면 employee를 조회하기 위한 코드가 다음과 같이 간결해진다.
+
+<br>
+
 ```JAVA
 Employee worker = em.find(Employee.class, empId);
 ```
+
+<br><br>
 
 #### 연관관계
 
@@ -81,13 +91,23 @@ class Company {
     String name;
 }
 ```
+
+<br>
+
 자바에서 객체를 고려하여 엔티티를 설계한다면 위과 같다.
 
+<br>
+
 <img src="https://github.com/93jpark/dev-interview-study/blob/main/assets/images/db/db_orm_3.png" width="600" height="300">
+
+<br>
 
 하지만 이를 데이터베이스에서 데이터를 저장하기 위해 테이블을 설계한다면 위와 같다.
 
 만약 객체를 테이블의 외래키 참조 형식의 연관관계에 맞추어 재설계한다면 아래와 같은 코드가 나온다.
+
+<br>
+
 ```JAVA
 class Employee {
     Long id;
@@ -101,7 +121,12 @@ class Comapny {
     String name;
 }
 ```
+
+<br>
+
 위와 같은 형식으로 엔티티를 정의하게 된다면, `Compnay employer = employee.getCompany()`와 같은 객체지향적 특징을 사용할 수 없게 된다.
+
+<br>
 
 ```JAVA
 class Employee {
@@ -127,12 +152,14 @@ Employee developer = jpa.find(Company.class, id);
 Company naver = developer.getEmployer();
 ```
 
+<br>
+
 ORM(JPA:hibernate)를 사용하여 객체의 참조를 어노테이션을 통해 명시해주면 JPA가 해당 객체에 대한 연관관계를 DB의 테이블 기준으로 매핑하여 준다. 개발자는 JPA의 api를 사용하여 객체처럼 메소드를 사용하면 기본적인 CRUD동작 수행이 가능해진다.
 
 
 
 
-
+<br>
 
 
 ### Sql Mapper (MyBatis)
