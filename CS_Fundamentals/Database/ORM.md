@@ -1,4 +1,11 @@
 
+
+<br>
+
+---
+
+<br>
+
 ## Object-Relational Mapper(ORM)
 
 `ORM`은 Object-Relational Mapper의 약자로, 객체와 RDB 사이의 패러다임 불일치에서 오는 불편함을 해결하기 위해 객체와 RDB를 변환시켜주는 데이터 접근 기술을 말한다.
@@ -156,6 +163,46 @@ Company naver = developer.getEmployer();
 
 ORM(JPA:hibernate)를 사용하여 객체의 참조를 어노테이션을 통해 명시해주면 JPA가 해당 객체에 대한 연관관계를 DB의 테이블 기준으로 매핑하여 준다. 개발자는 JPA의 api를 사용하여 객체처럼 메소드를 사용하면 기본적인 CRUD동작 수행이 가능해진다.
 
+
+### ORM기술의 장단점
+
+| 장점 | 단점 |
+|:---:|:---:|
+| 패러다임 불일치 해결  |  복잡한 쿼리 사용이 어려움 |
+| 생산성 | 성능 이슈 |
+
+#### PROS
+
+- `패러다임 불일치 문제의 해결`
+객체지향 언어가 가진 특성을 살려 프로그래밍을 할 수 있다.
+<br>
+
+- `생산성 증가`
+반복되는 CRUD용 SQL문 작성을 직접 하지 않아도 된다.
+<br>
+
+- `데이터베이스 호환성 증가`
+DB 벤더마다 다른 제약조건 및 문법을 ORM이 알아서 처리해준다.
+<br>
+
+- `유지보수`
+설계 이후 유지보수 단계에서 필드 추가/삭제 시 CRUD 쿼리문을 수정하지 않고 엔티티만 수정하면 된다.
+
+#### CONS
+
+- 복잡한 쿼리 사용이 어렵다
+    - JPA에서 SQL과 유사한 JPQL을 지원하며, native query도 사용할 수 있다.
+    - 이러한 단점을 보완하기 위해 SQL Mapper와 혼용해서 사용할 수 있다.
+
+- 높은 러닝 커브
+    - 두 패러다임의 특성에 대해 이해를 하고, ORM기술의 특성까지 이해해야 한다.
+    - `성능이슈` 깊은 이해를 하지 못한체 구현하면 성능 이슈가 존재한다.
+
+<br>
+
+>Reference
+>[10분 테코톡: JDBC, SQL Mapper, ORM](https://www.youtube.com/watch?v=NFK9qLWpujY)
+>[10분 테코톡: ORM vs SQL Mapper vs JDBC](https://www.youtube.com/watch?v=VTqqZSuSdOk)
 
 
 
