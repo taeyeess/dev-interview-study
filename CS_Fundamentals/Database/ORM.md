@@ -20,10 +20,14 @@
 
 <img src="https://github.com/93jpark/dev-interview-study/blob/main/assets/images/db/db_orm_1.png" width="600" height="300">
 
+<img src="https://github.com/93jpark/dev-interview-study/blob/main/assets/images/db/db_orm_2.png" width="600" height="300">
+
+
 
 ### Why ORM? 패러다임의 불일치🔥
 
-<img src="https://github.com/93jpark/dev-interview-study/blob/main/assets/images/db/db_orm_2.png" width="600" height="300">
+
+<img src="https://github.com/93jpark/dev-interview-study/blob/main/assets/images/db/db_orm_4.png" width="600" height="300">
 
 
 현대의 대부분 어플리케이션 개발은 **객체 지향 언어**를 사용하며, 데이터를 저장하고 관리하기 위해서 데이터베이스, 대부분 **관계형 데이터베이스**를 사용한다. 이 두개의 플랫폼은 서로 다른 패러다임을 지니는데, Java를 이용하는 Spring 프레임워크에서는 데이터를 다룰때 **객체**로 간주하여 프로그래밍한다. 한편, 데이터베이스에서는 **구조화된 테이블**에 대한 쿼리문을 작성하여 데이터를 조작한다. 즉, 각자 지향하는 목적이 다르기 때문에 사용 방법과 표현 방식에 있어 차이가 있을 수 밖에 없다.
