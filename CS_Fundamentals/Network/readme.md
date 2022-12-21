@@ -75,7 +75,6 @@
 
 ## HTTP란?
 
-(## HTTP 
 (HyperText Transfer Protocol)
 
 - 클라이언트와 서버 간의 데이터를 주고 받기 위한 규칙(프로토콜)
